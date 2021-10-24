@@ -3,15 +3,16 @@ import './App.css';
 
 function App() {
 
-  let appName = 'App';
+  let appStyle = 'App';
 
   return (
-    <div className={appName}>
-      <h1 className="hello">
-        Hello World
-      </h1>
-    </div>
-  );
+    <>
+      <div className={appStyle}>
+        <h1 style={{ color: 'gold' }}>Hello World</h1>
+      </div>
+      <div>Goodbye</div>
+    </>
+  )
 }
 
 export default App;
