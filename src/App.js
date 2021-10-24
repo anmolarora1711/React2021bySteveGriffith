@@ -1,6 +1,7 @@
 import './App.css';
 
 function App() {
+  let appStyle = 'App';
   return (
     <div className="App">
       <>
